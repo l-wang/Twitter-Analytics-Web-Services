@@ -1,7 +1,7 @@
 # Twitter-Analytics-Web-Services
 CMU 15-619 Cloud Computing Final Project
 
-1. Frontend code:
+Frontend code:
    Q1.java 
    Q2HBase.java 
    Q2MySql.java 
