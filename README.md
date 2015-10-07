@@ -42,4 +42,3 @@ HBase code:
    - Content.java and NewCombinedHBase.java are for Q2 HBase.
    - RetweetHBase.java is for Q3 HBase.
    - HashtagHBase.java is for Q4 HBase.
-
