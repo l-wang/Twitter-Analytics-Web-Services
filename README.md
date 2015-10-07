@@ -24,7 +24,7 @@ ETL code:
       - Use (Q3Mapper1.java and Q3Reducer1.java) and (Q3Mapper2.java and Q3Reducer2.java) for two streaming mapreduces on EMR. (Q3Mapper1.java and Q3Reducer1.java) is used for generating intermediate data, and then use (Q3Mapper2.java and Q3Reducer2.java) to read the output files from the first mapreduce and then generate data to be loaded into databases. 
 
    - Q4: Q4Mapper1.java, Q4Reducer1.java, Q4Mapper2.java, Q4Reducer2.java, Cmptor.java
-   - Use (Q4Mapper1.java and Q4Reducer1.java) and (Q4Mapper2.java and Q4Reducer2.java) for two streaming mapreduces on EMR. (Q4Mapper1.java and Q4Reducer1.java) is used for generating intermediate data. (Q4Mapper2.java and Q4Reducer2.java) reads the output files from the first mapreduce and then generate data to be loaded into databases.
+      - Use (Q4Mapper1.java and Q4Reducer1.java) and (Q4Mapper2.java and Q4Reducer2.java) for two streaming mapreduces on EMR. (Q4Mapper1.java and Q4Reducer1.java) is used for generating intermediate data. (Q4Mapper2.java and Q4Reducer2.java) reads the output files from the first mapreduce and then generate data to be loaded into databases.
 Cmptor.java is a class called by Q4Reducer2.java. It helps to compare the rank of two hashtags.
 
    - Q5: Q5Mapper.java, Q5Reducer.java
